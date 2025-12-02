@@ -1,7 +1,7 @@
-const email = prompt("Escribe tu correo:");
+const email = prompt('Escribe tu correo:');
 
 if (validarEmail(email)) {
-  alert("Correo válido ✅");
+  alert('Correo válido ✅');
 } else {
-  alert("Correo inválido ❌");
+  alert('Correo inválido ❌');
 }
